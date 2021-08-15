@@ -1,0 +1,37 @@
+﻿  CombineFilter.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\framebuffer.h(2): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  EmptyRenderer.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\shader.h(1): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  EntityHandler.cpp
+  FrameBuffer.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\framebuffer.h(2): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Input.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\input.h(2): fatal error C1083: Cannot open include file: 'GLFW\glfw3.h': No such file or directory
+  Light.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\light.h(3): fatal error C1083: Cannot open include file: 'glm/common.hpp': No such file or directory
+  main.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\framebuffer.h(2): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Mesh.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\mesh.h(2): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  OBJLoader.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\objloader.h(3): fatal error C1083: Cannot open include file: 'glm\vec2.hpp': No such file or directory
+  PostRenderSystem.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\framebuffer.h(2): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  RenderSystem.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\mesh.h(2): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Shader.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\shader.h(1): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  ShadowFrameBuffer.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\shadowframebuffer.h(2): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  State.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\state.cpp(2): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  System.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\system.cpp(39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  TestState.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\mesh.h(2): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Texture.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\texture.h(4): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  Vertex.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\vertex.h(2): fatal error C1083: Cannot open include file: 'glm\vec3.hpp': No such file or directory
+  Window.cpp
+c:\users\awesome\documents\visual studio 2017\projects\boring\boring\window.h(2): fatal error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
