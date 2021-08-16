@@ -113,6 +113,46 @@
     <ClCompile Include="Vertex.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\animatedshadow.fs" />
+    <None Include="shaders\animatedshadow.vs" />
+    <None Include="shaders\animation.fs" />
+    <None Include="shaders\animation.vs" />
+    <None Include="shaders\background.fs" />
+    <None Include="shaders\background.vs" />
+    <None Include="shaders\billboard.fs" />
+    <None Include="shaders\billboard.vs" />
+    <None Include="shaders\bloom.fs" />
+    <None Include="shaders\bloom.vs" />
+    <None Include="shaders\bounding.fs" />
+    <None Include="shaders\bounding.vs" />
+    <None Include="shaders\cloth.fs" />
+    <None Include="shaders\cloth.vs" />
+    <None Include="shaders\combine.fs" />
+    <None Include="shaders\combine.vs" />
+    <None Include="shaders\comic.fs" />
+    <None Include="shaders\comic.vs" />
+    <None Include="shaders\crt.fs" />
+    <None Include="shaders\crt.vs" />
+    <None Include="shaders\default.fs" />
+    <None Include="shaders\default.vs" />
+    <None Include="shaders\gui.fs" />
+    <None Include="shaders\gui.vs" />
+    <None Include="shaders\Hblur.fs" />
+    <None Include="shaders\Hblur.vs" />
+    <None Include="shaders\instance.fs" />
+    <None Include="shaders\instance.vs" />
+    <None Include="shaders\particle.fs" />
+    <None Include="shaders\particle.vs" />
+    <None Include="shaders\post.fs" />
+    <None Include="shaders\post.vs" />
+    <None Include="shaders\shader.fs" />
+    <None Include="shaders\shader.vs" />
+    <None Include="shaders\shadowShader.fs" />
+    <None Include="shaders\shadowShader.vs" />
+    <None Include="shaders\Vblur.fs" />
+    <None Include="shaders\Vblur.vs" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{5BAFA905-0147-4C74-818E-D80C57A7A9BA}</ProjectGuid>

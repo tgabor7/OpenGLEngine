@@ -10,7 +10,7 @@ using namespace glm;
 
 namespace functions {
 	static mat4x4 createTransformationMatrix(vec3 translation, vec3 rotation, vec3 dimensions) {
-		mat4 res;
+		mat4x4 res = mat4x4(1.0);
 		res = translate(res, translation);
 		res = rotate(res, rotation.x, glm::vec3(1, 0, 0));
 		res = rotate(res, rotation.y, glm::vec3(0, 1, 0));
@@ -33,10 +33,7 @@ namespace functions {
 		up = cross(side, forward);
 
 
-		mat4x4 matrix = mat4x4(1, 0, 0, 0,
-			0, 1, 0, 0,
-			0, 0, 1, 0,
-			0, 0, 0, 1);
+		mat4x4 matrix = mat4x4(1.0);
 		matrix[0][0] = side.x;
 		matrix[0][1] = side.y;
 		matrix[0][2] = side.z;
@@ -54,7 +51,7 @@ namespace functions {
 	}
 	static mat4x4 createViewMatrix(Camera camera) {
 
-		mat4x4 view = mat4x4();
+		mat4x4 view = mat4x4(1.0);
 		view = lookAtP(camera.position, camera.pointToLookAt, vec3(0, 1, 0), view);
 		view = glm::translate(view, -camera.position);
 

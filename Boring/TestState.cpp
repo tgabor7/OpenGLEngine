@@ -32,6 +32,9 @@ void TestState::init()
 	GameComponent g;
 	g.a = 23;
 	Mesh m(OBJLoader::loadOBJ("objs/cube.obj"));
+	for (int i = 0; i < m.data.vertices.size(); i++) {
+		std::cout << m.data.vertices[i] << ", ";
+	}
 	m.scale = vec3(1);
 	m.position = vec3(1);
 	m.texture = new Texture("res/red.png");
@@ -44,9 +47,9 @@ void TestState::init()
 	m.outLineColor = vec4(1);
 	m.texture->bloomMap = green->texture_id;
 	Transformation transform;
-	transform.pos = vec3(-1,-5,0);
-	transform.scale = vec3(1000,1,1000);
-	//entityh = handler.makeEntity(m, transform);
+	transform.pos = vec3(0,0,0);
+	transform.scale = vec3(1,1,1);
+	entityh = handler.makeEntity(m, transform);
 	Light l(glm::vec3(0, 1000, 5), glm::vec3(1), glm::vec3(1, 0, 0));
 	Light light0(glm::vec3(0, 50, -50), glm::vec3(1, 0, 0), glm::vec3(1, 0.01f, 0.0001f));
 	Light light2(glm::vec3(0, 50, 50), glm::vec3(0, 0, 1), glm::vec3(1, 0.01f, 0.0001f));
@@ -136,7 +139,7 @@ void TestState::update()
 
 		zuwe++;
 	}
-	action::emit(particles);
+	//action::emit(particles);
 	if (zuwe < 39) {
 		action::setFrame(animated, zuwe);
 	}

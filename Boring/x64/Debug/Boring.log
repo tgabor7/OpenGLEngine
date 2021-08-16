@@ -1,11 +1,11 @@
 ﻿  TestState.cpp
-D:\Projects\Boring\Boring\TestState.cpp(93,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(96,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(105,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(108,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(117,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(120,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(130,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(133,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(150,39): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Boring\Boring\TestState.cpp(96,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(99,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(108,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(111,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(120,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(123,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(133,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(136,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(153,39): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   Boring.vcxproj -> D:\Projects\Boring\x64\Debug\Boring.exe
