@@ -32,20 +32,22 @@ void TestState::init()
 	GameComponent g;
 	g.a = 23;
 	Mesh m(OBJLoader::loadOBJ("objs/cube.obj"));
-	for (int i = 0; i < m.data.vertices.size(); i++) {
-		std::cout << m.data.vertices[i] << ", ";
-	}
+	
 	m.scale = vec3(1);
 	m.position = vec3(1);
 	m.texture = new Texture("res/red.png");
 	Texture *green = new Texture("res/green.png");
 	Transformation proba0;
-	proba0.pos.x = 10;
-	/*Mesh proba1(OBJLoader::loadOBJ("objs/cube.obj"));
+	proba0.rotation = vec3(0, 0, 0);
+	proba0.pos.y = -10;
+	proba0.scale = vec3(1000, 1, 1000);
+	Mesh proba1(OBJLoader::loadOBJ("objs/cube.obj"));
 	proba1.texture = green;
-	int proba = handler.makeEntity(proba1,proba0);*/
+	proba1.has_shadow = true;
+	int proba = handler.makeEntity(proba1,proba0);
 	m.outLineColor = vec4(1);
 	m.texture->bloomMap = green->texture_id;
+	m.has_shadow = true;
 	Transformation transform;
 	transform.pos = vec3(0,0,0);
 	transform.scale = vec3(1,1,1);
@@ -66,12 +68,12 @@ void TestState::init()
 		}
 	}*/
 	//int instances = handler.makeEntity(icom);
-	/*BillBoard b(new Texture("res/green.png"),vec3(),vec2(1),0);
+	BillBoard b(new Texture("res/green.png"),vec3(),vec2(1),0);
 	int billboards = handler.makeEntity(b);
 	Texture *ant = new Texture("res/red.png");
 	ant->bloomMap = ant->texture_id;
-	*///ModelData skin = ASDLoader::loadSkin("animations/idle.asd");
-	/*AnimatedMesh *anime = new AnimatedMesh(vec3(), &skin, ASDLoader::loadAnimation("animations/idle.asd"), vec3(10.f),ant);
+	ModelData skin = ASDLoader::loadSkin("animations/idle.asd");
+	AnimatedMesh *anime = new AnimatedMesh(vec3(), &skin, ASDLoader::loadAnimation("animations/idle.asd"), vec3(10.f),ant);
 	anime->rotation.z = 1.56;
 	anime->rotation.x = -1.56;
 	anime->transformation *= .1f;
@@ -79,7 +81,7 @@ void TestState::init()
 	Transformation animt;
 	animt.rotation.z = 1.56;
 	animt.rotation.x = -1.56;
-	animated = handler.makeEntity(*anime,animt);*/
+	animated = handler.makeEntity(*anime,animt);
 	CustomInstanceRenderer *creer = new CustomInstanceRenderer();
 
 	/*GUIComponent gui(green);

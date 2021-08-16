@@ -1,11 +1,31 @@
 ﻿  TestState.cpp
-D:\Projects\Boring\Boring\TestState.cpp(96,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(99,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(108,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(111,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(120,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(123,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(133,46): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(136,47): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Projects\Boring\Boring\TestState.cpp(153,39): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\Projects\Boring\Boring\TestState.cpp(77,26): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Projects\Boring\Boring\TestState.cpp(78,27): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Projects\Boring\Boring\TestState.cpp(82,25): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Projects\Boring\Boring\TestState.cpp(83,26): warning C4305: '=': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Projects\Boring\Boring\TestState.cpp(98,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(101,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(110,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(113,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(122,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(125,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(135,46): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(138,47): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Projects\Boring\Boring\TestState.cpp(155,39): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   Boring.vcxproj -> D:\Projects\Boring\x64\Debug\Boring.exe
