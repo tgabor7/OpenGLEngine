@@ -14,3 +14,6 @@ Features:
 
 ## Post processing
 <img src="Boring/bloomcap.PNG">
+
+## Box shadows
+<img src="Boring/shadowcap.PNG">
