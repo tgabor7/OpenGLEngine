@@ -40,7 +40,7 @@ private:
 	glm::vec3 position;
 	int textureIndex = -1;
 	int normalIndex = -1;
-	Vertex* duplicateVertex;
+	Vertex* duplicateVertex = nullptr;
 	int index;
 	float length;
 };
