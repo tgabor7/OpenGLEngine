@@ -203,7 +203,7 @@ void OBJLoader::dealWithAlreadyProcessedVertex(Vertex &previousVertex, int newTe
 
 	}
 	else {
-		if (previousVertex.getDuplicateVertex() != NULL) {
+		if (previousVertex.getDuplicateVertex() != nullptr) {
 
 			dealWithAlreadyProcessedVertex(*previousVertex.getDuplicateVertex(), newTextureIndex, newNormalIndex,
 				indices, vertices);
